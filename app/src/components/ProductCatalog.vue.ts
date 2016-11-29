@@ -15,7 +15,6 @@ export default class ProductCatalog extends Vue {
 
   // Lifecycle
   created() {
-    debugger;
     productsService.fetchProducts()
       .then(data => this.products = data);
   }

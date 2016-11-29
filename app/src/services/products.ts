@@ -1,5 +1,5 @@
 import { Product } from 'JayStore';
-import http from 'Http'
+import http from 'services/Http'
 
 export const fetchProduct = (productId: string) => {
     return http.get(`products/${productId}`)

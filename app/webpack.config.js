@@ -6,7 +6,10 @@ var HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   //entry: './src/main.ts',
   entry: {
-    app: ['./src/polyfills.js', './src/main.ts'],
+    app: [
+      './src/polyfills/polyfills.js',
+      './src/main.ts'
+    ],
     vendor: [
       //__dirname + '/node_modules/bootstrap/scss/bootstrap-flex.scss',
       //__dirname + '/node_modules/bootstrap/dist/css/bootstrap.css',
