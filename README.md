@@ -7,7 +7,7 @@ Online shop build with Vue.js 2.0, vue-router, vuex and Typescript 2.0
 I wanted to try [Vue.js](https://vuejs.org/), with [TypeScript](https://www.typescriptlang.org/)
 and for this I started with the [av-ts-template](https://github.com/HerringtonDarkholme/av-ts-template)
 and the with tutorial [Jayway Vue.js 2.0 workshop](https://github.com/jayway/vue-js-workshop), more specifically the demo.
-I ended up creating some Typescript decorators for Vuex and for a custom bus.
+I ended up creating some Typescript decorators for [Vuex](https://github.com/vuejs/vuex) and for a custom bus.
 
 I do not have any experience with webpack (I am more of a backend guy),
 so apologies for a less than ideal webpack configuration.
@@ -29,12 +29,12 @@ This is also handy for comunication between sibling components.
 ## Relevant changes to the original Jaystore
 
 * In order to have autocompletion for TypeScript I moved the script section of `.vue` files
-into separate `.ts` files ahad them referenced in the `.vue` file.
-* Converted products store into services.
+into separate `.ts` files and had them referenced in the `.vue` file.
+* Converted store module `products` into a service.
 * Product state is retrived when you enter a page, 
-meaning ProductList and ProductCatalog get the list of products from the backend on page enter.
+meaning ProductList and ProductCatalog get the list of products from the backend on page create.
 * Comunication between ProductList and SaveProductForm is done by an event bus
-with the help of `@Listen`decorator. 
+with the help of `@Listen` decorator. 
 
 
 ## Scripts
