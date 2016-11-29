@@ -1,0 +1,38 @@
+.product-table {
+  table-layout: fixed;
+
+  .product-row {
+    cursor: pointer;
+  }
+
+  .product-image {
+    background-color: #fff;
+    height: 48px;
+  }
+
+  th,
+  td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+
+  .product-image-col {
+    text-align: center;
+    width: 72px;
+  }
+
+  .product-name-col {
+    min-width: 200px;
+  }
+
+  .product-price-col {
+    width: 110px;
+  }
+
+  .product-delete-col {
+    width: 80px;
+    text-align: right;
+  }
+}

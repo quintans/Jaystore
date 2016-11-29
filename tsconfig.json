@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "experimentalDecorators": true,
+        "lib": ["es5", "es2015.promise", "dom"],
+        // https://github.com/TypeStrong/ts-loader/issues/29#issuecomment-128842847
+        "baseUrl": "src"
+    },
+    "exclude": [
+        "node_modules", "dist"
+    ]
+}

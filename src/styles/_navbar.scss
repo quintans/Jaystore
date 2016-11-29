@@ -1,0 +1,66 @@
+.navbar-jw {
+  border-bottom: 1px solid #F0F0F0;
+
+  .navbar-brand {
+    height: 32px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #474747;
+    padding: 0;
+
+    img {
+      float: left;
+      height: 100%;
+      margin-right: 8px;
+    }
+  }
+
+  .nav-link {
+    position: relative;
+
+    &.active:after {
+      content: '';
+      position: absolute;
+      bottom: -.5rem;
+      left: 0;
+      background-color: #41b6e6;
+      width: 100%;
+      height: 3px;
+    }
+  }
+
+  .dropdown-cart.open {
+    position: static;
+
+    .dropdown-menu {
+      display: table;
+      width: 100%;
+      max-width: 450px;
+    }
+  }
+
+  .tag {
+    border-radius: 25%;
+    vertical-align: text-bottom;    
+  }
+}
+
+@media (max-width: 543px) {
+  .navbar-toggleable-xs {
+    clear: left;
+  }
+
+  .navbar-nav {
+    padding-top: .5rem;
+  }
+
+  .nav-link {
+    padding-left: 1rem;
+
+   &.active:after {
+     height: 100% !important;
+     width: 3px !important;
+     top: 0 !important;
+    }
+  }
+}
