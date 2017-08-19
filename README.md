@@ -5,8 +5,8 @@ Online shop build with Vue.js 2.0, vue-router, vuex and Typescript 2.0
 ## Intro
 
 I wanted to try [Vue.js](https://vuejs.org/), with [TypeScript](https://www.typescriptlang.org/)
-and for this I started with the [av-ts-template](https://github.com/HerringtonDarkholme/av-ts-template)
-and the with tutorial [Jayway Vue.js 2.0 workshop](https://github.com/jayway/vue-js-workshop), more specifically the demo.
+and for this I started with the [av-ts-template](https://github.com/HerringtonDarkholme/av-ts-template) template
+and with the [Jayway Vue.js 2.0 workshop](https://github.com/jayway/vue-js-workshop) tutorial, more specifically the demo.
 I ended up creating some Typescript decorators for [Vuex](https://github.com/vuejs/vuex) and for a custom bus.
 
 I do not have any experience with webpack (I am more of a backend guy),
